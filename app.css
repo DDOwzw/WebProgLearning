@@ -1,0 +1,24 @@
+h1{
+	color: #F23333;
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border : 8px dashed rgb(0,255,0);
+}
+
+li{
+	color: rgb(0,255,0);
+}
+
+h4{
+	color: rgba(11,99,150,.5);
+	background: rgb(255,100,80);
+}
+
+body{
+	background: url(https://pre08.deviantart.net/18b2/th/pre/f/2012/340/c/8/asuna_cat_by_chuloc-d5n9w0h.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+

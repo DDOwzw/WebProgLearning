@@ -1,0 +1,24 @@
+p {
+	font-family: 'Libre Barcode 39 Text', cursive;
+	font-size: 2.9em;
+	font-weight: 100 - 800;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 5em;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: line-through;;
+}
+
+body {
+	font-size: 20px;
+}
+
+span{
+	font-size: 2em;
+}

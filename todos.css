@@ -1,0 +1,29 @@
+/*element*/
+li {
+	border: 2px solid red;
+}
+/*id*/
+#special {
+	color: #FF0023;
+	background: yellow;
+}
+/*class*/
+.completed{
+	text-decoration: line-through;
+}
+
+/*Star*/
+*{
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector*/
+
+
+/*Adjacent Selector*/
+
+
+/*Attribute Selector*/
+
+
+/*nth of types*/

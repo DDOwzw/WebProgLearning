@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form action="http://wikipedia.org" method="GET">
+		
+			<label for="firstname">First Name:</label>
+			<input id="firstname" type="text" name="firstname" placeholder="John" required>
+			<label for="lastname">Last Name:</label>
+			<input id="lastname" type="text" name="lastname" placeholder="Smith" required>
+		
+		<div>
+			<label for="Male">Male</label>
+			<input id="Male" type="radio" name="Gender" value="Male">
+			<label for="Female">Female</label>
+			<input id="Female" type="radio" name="Gender" value="Female">
+			<label for="Other">Other</label>
+			<input id="Other" type="radio" name="Gender" value="Other">
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<input id="email" type="Email" name="email" placeholder="your email" required="">
+			<label for="password">Password:</label>
+			<input id="password" type="Password" name="password" pattern=".{5,10}" required title="5 to 10 characters, Hey, you can see this!" required="">
+		</div>
+		<label>Birthday:
+			<select name="Month">
+				<option>Month</option>
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="Mar">Mar</option>
+			</select>
+			<select name="Day">
+				<option>Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+			<select name="Year">
+				<option>Year</option>
+				<option value="2017">2017</option>
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+			</select>
+		</label>
+		<div>
+			<label for="check">I agree to the terms and conditions</label>
+			<input id="check" type="checkbox" name="check" required="">
+		</div>
+		<button>Submit</button>
+	</form>
+</body>
+</html>
